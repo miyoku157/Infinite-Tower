@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/creditlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fond"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:id="@+id/cred1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/cred2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="21dp"
+        android:text="Game developped in 2014 by:"
+        android:textColor="#FFFFFF"
+        android:textSize="19sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/cred3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/cred4"
+        android:layout_alignLeft="@+id/cred2"
+        android:layout_marginBottom="30dp"
+        android:text="Sébastien Roth"
+        android:textColor="#FFFFFF"
+        android:textSize="19sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/cred2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/cred3"
+        android:layout_alignLeft="@+id/cred1"
+        android:layout_marginBottom="32dp"
+        android:text="Philippe Cheminel Aka Exospector"
+        android:textColor="#FFFFFF"
+        android:textSize="19sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/cred4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/cred3"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="38dp"
+        android:text="Students at EPSI Lyon, France"
+        android:textColor="#FFFFFF"
+        android:textSize="19sp"
+        android:typeface="serif" />
+
+</RelativeLayout>

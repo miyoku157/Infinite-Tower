@@ -1,0 +1,10 @@
+.0......M...M..
+.   M       M .
+. 0 MMM  0    0
+. 0   M   MMM .
+MMMM  MMM     .
+D M   M MMM00 .
+. M  00       .
+0     M   0MMM0
+.0MM  M 0   M A
+...0..M.0......
